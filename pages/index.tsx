@@ -1,6 +1,15 @@
 import Head from 'next/head'
+import { useEffect, useState } from 'react'
+import getCats from '../firestore/reads'
+import Cat from '../types/cat'
 
 export default function Home() {
+  const [cats, setCats] = useState<Cat[]>([])
+
+  useEffect(() => {
+    getCats().then(setCats)
+  }, [])
+
   return (
     <div>
       <Head>
@@ -9,7 +18,9 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <h2>hello</h2>
+      {cats.map((cat) => (
+        <h5 key={cat.id}>{cat.name}</h5>
+      ))}
     </div>
   )
 }
