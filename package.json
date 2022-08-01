@@ -15,6 +15,7 @@
     "test-all": "npm run check-format && npm run check-lint && npm run check-types"
   },
   "dependencies": {
+    "firebase": "^9.9.1",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -27,6 +28,7 @@
     "@typescript-eslint/parser": "^5.32.0",
     "eslint": "^8.21.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "12.2.3",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
