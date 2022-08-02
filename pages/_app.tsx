@@ -14,16 +14,7 @@ function Layout({ children }: { children: ReactElement }) {
         padding: '8px',
       }}
     >
-      <div
-        style={{
-          padding: '8px',
-          borderRadius: '4px',
-          backgroundColor: 'red',
-          maxWidth: '720px',
-        }}
-      >
-        {children}
-      </div>
+      {children}
     </div>
   )
 }
