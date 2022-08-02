@@ -47,6 +47,7 @@ export default function Cats({ cats }: { cats: Cat[] }) {
                   height={300}
                   objectFit='cover'
                   style={{ borderRadius: '8px' }}
+                  priority
                 />
               </div>
             ))}
