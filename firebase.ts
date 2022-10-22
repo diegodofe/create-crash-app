@@ -11,12 +11,11 @@ const firebaseConfig = {
   projectId: 'cat-app-9d8af',
   storageBucket: 'cat-app-9d8af.appspot.com',
   messagingSenderId: '653237192821',
-  appId: '1:653237192821:web:4298117dd038c86c6a103c',
+  appId: '1:653237192821:web:e68ebaf1e4d214006a103c',
 }
 
 // Initialize Firebase
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const app = initializeApp(firebaseConfig)
+initializeApp(firebaseConfig)
 const db = getFirestore()
 
 export default db
