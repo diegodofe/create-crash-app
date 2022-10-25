@@ -1,8 +1,8 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import CatThumbnail from '../components/CatThumbnail'
+import SiuThumbnail from '../components/SiuThumbnail'
 import { CRASH_DOC_ID } from '../constants/cats'
+import siu from '../public/siu.mp3'
 import { getCatById } from '../services/cats'
-import Cat from '../types/cat'
 
 export async function getServerSideProps() {
   const welcomeCat = await getCatById(CRASH_DOC_ID)
@@ -10,7 +10,7 @@ export async function getServerSideProps() {
   return { props: { welcomeCat } }
 }
 
-export default function Home({ welcomeCat }: { welcomeCat: Cat }) {
+export default function Home() {
   return (
     <AnimatePresence exitBeforeEnter>
       <motion.div
@@ -25,9 +25,12 @@ export default function Home({ welcomeCat }: { welcomeCat: Cat }) {
         exit={{ opacity: 0, x: 1000 }}
       >
         <h1 style={{ fontSize: 'clamp(28px, 6vw, 46px)' }}>
-          Welcome to create-crash-app!
+          Welcome to create-siuuu-app!
         </h1>
-        <CatThumbnail cat={welcomeCat} />
+        <audio src={siu} autoPlay loop>
+          <track kind='captions' />
+        </audio>
+        <SiuThumbnail />
       </motion.div>
     </AnimatePresence>
   )

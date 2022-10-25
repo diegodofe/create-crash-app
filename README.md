@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Smirk_Cat_Emoji_grande.png?v=1571606093" width="130" alt="Logo for create-crash-app" />
+  <img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Smirk_Cat_Emoji_grande.png?v=1571606093" width="130" alt="Logo for create-siuuu-app" />
 </p>
 
 <h1 align="center">

@@ -1,19 +1,19 @@
 import Image from 'next/image'
-import Cat from '../types/cat'
+import siu from '../public/siu_img.jpeg'
 
-export default function CatThumbnail({ cat }: { cat: Cat }) {
+export default function SiuThumbnail() {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
       <Image
-        alt={`${cat.name}-image`}
-        src={cat.image}
+        alt='ronny-image'
+        src={siu}
         width={200}
         height={200}
         objectFit='cover'
         style={{ borderRadius: '8px' }}
         priority
       />
-      <h3>{`<--- ${cat.name.toUpperCase()}`}</h3>
+      <h3>{`<--- CRISTIANO RONALDO`}</h3>
     </div>
   )
 }
