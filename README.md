@@ -24,7 +24,8 @@
 
 The _"Crash Stack"_ is a web development stack focused on **simplicity** and a **clean developer experience**. It consists of: 
 
-- [A custom ESLint config based on Airbnb's config - for tightened up code.](https://github.com/iamturns/eslint-config-airbnb-typescript)
+- [A custom ESLint config (based on Airbnb's config) - for tightened up code.](https://github.com/iamturns/eslint-config-airbnb-typescript)
+- [A ready-to-use folder structure (based on React's recommendations) - for clean file organization.](https://reactjs.org/docs/faq-structure.html)
 - [Husky - for improved Git commits.](https://github.com/t3-oss/create-t3-app)
 - [Next.js - for a solid React.js framework.](https://nextjs.org)
 - [Firebase - for a simple BaaS.](https://firebase.google.com/)
@@ -46,4 +47,4 @@ npm i
 
 <h2 id="contributors">Contributors</h2>
 
-Want to beef this template up more? Feel feel to contribute to this project by opening an issue or PR.
+Want to beef this template up more? Feel free to contribute to this project by opening an issue or PR.
