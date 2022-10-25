@@ -7,14 +7,43 @@
 </h1>
 
 <p align="center">
+  Template repo to quickly set up an opinionated, strict config, typesafe Next.js project.
+</p>
+
+<p align="center">
   Get started with <a rel="noopener noreferrer" target="_blank" href="https://create-crash-app.vercel.app/">create-crash-app</a> by running <code>npm i</code>
 </p>
 
 <h2 id="table-of-contents">Table of contents</h2>
 
-- <a href="#about">What is create-crash-app?</a>
+- <a href="#about">What is the Crash Stack?</a>
 - <a href="#getting-started">Getting Started</a>
+- <a href="#contributors">Contributors</a>
 
-<h2 id="about">What is create-crash-app?</h2>
+<h2 id="about">What is the Crash Stack?</h2>
 
-The _"create-crash-app"_ is a web development stack focused on **simplicity**.
+The _"Crash Stack"_ is a web development stack focused on **simplicity** and a **clean developer experience**. It consists of: 
+
+- [Husky - for improved Git commits.](https://github.com/t3-oss/create-t3-app)
+- [A custom ESLint config based on Airbnb's - for tightened up code.](https://github.com/iamturns/eslint-config-airbnb-typescript)
+- [Next.js - for a solid React.js framework.](https://nextjs.org)
+- [Firebase - for a simple BaaS.](https://firebase.google.com/)
+- [TypeScript - for typesafety.](https://typescriptlang.org)
+
+There's definetly a good bunch of us who love TypeScript, Next.js, and the Firebase suite. But of course, you don't need these technologies for every project.
+
+To be frank - this is an _opinionated project_. After working on several projects, I've got a handful of core beliefs around building React.js apps.  
+
+I made `create-crash-app` to do one thing: **_Simplify the process of spinning up a TypeScript/Next.js/Firebase app with a strict config_**. This is NOT an all-inclusive template and you should definetly add your own libraries if need be.
+
+<h2 id="getting-started">Getting Started</h2>
+
+To get started with `create-crash-app`, click the **_Use this template_** button at the top of the page. Once you've cloned the repo locally, run the following command:
+
+```bash
+npm i
+```
+
+<h2 id="contributors">Contributors</h2>
+
+Want to beef this template up more? Feel feel to contribute to this project by opening an issue or PR.
