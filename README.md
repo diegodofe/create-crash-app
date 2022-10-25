@@ -24,8 +24,8 @@
 
 The _"Crash Stack"_ is a web development stack focused on **simplicity** and a **clean developer experience**. It consists of: 
 
+- [A custom ESLint config based on Airbnb's config - for tightened up code.](https://github.com/iamturns/eslint-config-airbnb-typescript)
 - [Husky - for improved Git commits.](https://github.com/t3-oss/create-t3-app)
-- [A custom ESLint config based on Airbnb's - for tightened up code.](https://github.com/iamturns/eslint-config-airbnb-typescript)
 - [Next.js - for a solid React.js framework.](https://nextjs.org)
 - [Firebase - for a simple BaaS.](https://firebase.google.com/)
 - [TypeScript - for typesafety.](https://typescriptlang.org)
