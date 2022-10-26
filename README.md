@@ -31,7 +31,7 @@ The _"Crash Stack"_ is a web development stack focused on **simplicity** and a *
 - [Firebase - for a simple BaaS.](https://firebase.google.com/)
 - [TypeScript - for typesafety.](https://typescriptlang.org)
 
-There's definetly a good bunch of us who love TypeScript, Next.js, and the Firebase suite. But of course, you don't need these technologies for every project.
+There's definitely a good bunch of us who love TypeScript, Next.js, and the Firebase suite. But of course, you don't need these technologies for every project.
 
 To be frank - this is an _opinionated project_. After working on several projects, I've got a handful of core beliefs around building React.js apps.  
 
