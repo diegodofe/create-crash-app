@@ -9,7 +9,6 @@ export default function CatThumbnail({ cat }: { cat: Cat }) {
         src={cat.image}
         width={200}
         height={200}
-        objectFit='cover'
         style={{ borderRadius: '8px' }}
         priority
       />
