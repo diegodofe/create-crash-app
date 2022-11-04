@@ -22,7 +22,7 @@
 
 <h2 id="about">What is the Crash Stack?</h2>
 
-The _"Crash Stack"_ is a web development stack focused on **simplicity** and a **clean developer experience**. It consists of: 
+The _"Crash Stack"_ is a web development stack focused on **simplicity** and a **clean developer experience**. It consists of:
 
 - [A custom ESLint config (based on Airbnb's config) - for tightened up code.](https://github.com/iamturns/eslint-config-airbnb-typescript)
 - [A ready-to-use folder structure (based on React's recommendations) - for clean file organization.](https://reactjs.org/docs/faq-structure.html)
@@ -33,7 +33,7 @@ The _"Crash Stack"_ is a web development stack focused on **simplicity** and a *
 
 There's definitely a good bunch of us who love TypeScript, Next.js, and the Firebase suite. But of course, you don't need these technologies for every project.
 
-To be frank - this is an _opinionated project_. After working on several projects, I've got a handful of core beliefs around building React.js apps.  
+To be frank - this is an _opinionated project_. After working on several projects, I've got a handful of core beliefs around building React.js apps.
 
 I made `create-crash-app` to do one thing: **_Simplify the process of spinning up a TypeScript/Next.js/Firebase app with a strict config_**. This is NOT an all-inclusive template and you should definetly add your own libraries if need be.
 
