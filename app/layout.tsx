@@ -19,6 +19,10 @@ export default function RootLayout({
         <title>Create Crash App</title>
       </head>
       <body>
+        <h1 style={{ fontSize: 'clamp(20px, 6vw, 46px)' }}>
+          Welcome to create-crash-app!
+        </h1>
+
         <div style={{ flex: 1, display: 'flex', alignItems: 'center' }}>
           {children}
         </div>

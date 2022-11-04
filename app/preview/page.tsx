@@ -12,9 +12,5 @@ export default async function Preview() {
 
   if (!welcomeCat) return <p>Oops, the cat got away...</p>
 
-  return (
-    <div>
-      <CatThumbnail cat={welcomeCat} />
-    </div>
-  )
+  return <CatThumbnail cat={welcomeCat} />
 }
